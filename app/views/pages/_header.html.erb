@@ -1,0 +1,14 @@
+<div id='navbar'>
+<p id='header-logo'><%= link_to 'FGR', root_path, style: 'color: #000; text-decoration: none;'%></p>
+<ul id='navlist'>
+  <li><%= link_to 'Games', games_path, style: 'color: #000; text-decoration: none;' %></li>
+  <li><%= link_to 'Terminology', terms_path, style: 'color: #000; text-decoration: none;' %></li>
+  <li>
+    <% if Current.user %>
+      <%= link_to 'Profile', profile_path, style: 'color: #000; text-decoration: none;' %>
+      <% else %>
+      <%= link_to 'Login', sign_in_path, style: 'color: #000; text-decoration: none;' %>
+    <% end %>
+  </li>
+</ul>
+</div>  

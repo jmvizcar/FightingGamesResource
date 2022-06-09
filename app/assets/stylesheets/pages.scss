@@ -1,0 +1,114 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@font-face {
+  font-family: "Street Fighter";
+  src: font-url("Act_Of_Rejection.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Guilty Gear";
+  src: font-url("RED.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sharpshooter";
+  src: font-url("Sharpshooter.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: linear-gradient(#d6791e, #dbb369) fixed;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: calc(min(100vw, 1700px));
+  height: 6.25rem;
+  background-color: #464646;
+}
+
+#navlist {
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 3%;
+}
+
+#navlist li {
+  margin: 10px;
+}
+
+#header-logo {
+  color: #000;
+  font-family: "Guilty Gear", Arial;
+  font-size: 5rem;
+  margin-left: 3%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 6.25rem;
+  width: calc(min(100vw, 1700px));
+}
+
+.container.logo {
+  background-image: image-url('Ryu-stage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  font-family: "Guilty Gear";
+  font-size: 11rem;
+  text-align: center;
+}
+
+.container.introduction {
+  height: 15rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 16em);
+  font-size: 20px;
+  grid-gap: 1.5em;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.game-info {
+  width: 15.5em;
+}
+
+.game-info:hover {
+  transform: scale(1.1);
+  cursor: pointer; 
+}

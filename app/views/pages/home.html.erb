@@ -1,0 +1,21 @@
+<div class='container logo'>
+  <p>FIGHTING GAMES REFERENCE</p>
+</div>
+<div class='container introduction'>
+  <p>
+    Welcome to FGR! This website was created in order to help people learn 
+    the fundamentals of fighting games as well as
+    terms that are frequently used in fighting games. Click on a game below to
+    see terms relevant to them. Or click <b class='link'><%= link_to 'here', terms_path %></b> for a full list of terms.
+  </p>
+</div>
+<div class='container game-grid'>
+  <% @games.each do |game| %>
+        <div class='game-info'>
+          <%= link_to game_path(game.name) do %>
+            <%= image_tag image_url(game.cover), :size => '260x375' %>
+          <% end %>
+          <h3 class='game-title'><%= game.name %></h3>
+        </div>
+  <% end %>
+</div>

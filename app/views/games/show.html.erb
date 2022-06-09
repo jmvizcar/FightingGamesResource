@@ -1,0 +1,13 @@
+<div class='container term-grid'>
+  <h3><%= @game.name %></h3>
+  <%= image_tag image_url(@game.cover), :size => '260x375' %>
+  <p>Series: <%= @game.series.name %></p>
+  <p>Developer: <%= @game.series.developer.name %></p>
+  <p>Release Year: <%=@game.releaseyear %></p>
+  <% @game.series.terms.each do |term| %>
+    <p><%= term.name %></p>
+  <% end %>
+  <% @game.terms.each do |term| %>
+    <p><%= term.name %></p>
+  <% end %>
+</div>

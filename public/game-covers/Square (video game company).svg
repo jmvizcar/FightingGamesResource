@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   id="svg2"
+   sodipodi:version="0.32"
+   sodipodi:docname="Square_Logo.svg"
+   inkscape:version="0.46"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   x="0px"
+   y="0px"
+   width="333"
+   height="50"
+   viewBox="0 0 539.992 50.789"
+   enable-background="new 0 0 539.992 50.789"
+   xml:space="preserve"><metadata
+   id="metadata23"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata>
+<defs
+   id="defs3">
+	
+	
+		<inkscape:perspective
+   inkscape:vp_z="539.992 : 25.393999 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_x="0 : 25.393999 : 1"
+   sodipodi:type="inkscape:persp3d"
+   id="perspective21"
+   inkscape:persp3d-origin="269.996 : 16.929333 : 1">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview
+   inkscape:cy="25.393999"
+   inkscape:cx="210.68621"
+   inkscape:zoom="2.0148446"
+   showgrid="false"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   objecttolerance="10.0"
+   gridtolerance="10.0"
+   guidetolerance="10.0"
+   id="base"
+   inkscape:current-layer="svg2"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:pageopacity="0.0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1280"
+   inkscape:window-height="750">
+	</sodipodi:namedview>
+
+
+<g
+   id="g5"
+   transform="matrix(1.6267069,0,0,1.6267069,0.5100407,-14.189786)">
+	<g
+   id="g7">
+		<path
+   d="M 41.667,13.667 L 51.334,6.667 C 51.334,6.667 38.001,-1.332 23.334,11.334 C 23.334,11.334 18.001,18 28.001,22.667 C 28.001,22.667 42.001,28.667 34.668,32.667 C 34.668,32.667 23.335,42.667 12.001,31.333 L 0,40 C 0,40 15.333,54.002 36,45.334 C 36,45.334 54.667,40 52.667,24.667 C 52.667,24.667 53.333,18.667 41.667,13.667 z"
+   id="path9" />
+		<path
+   d="M 169.331,35.333 L 179.998,6 L 163.331,6 L 154.664,31.333 C 154.664,31.333 155.331,36.667 145.331,36.667 C 145.331,36.667 137.331,37.999 139.998,29.333 L 147.998,6 L 132.665,6 L 122.665,36.667 C 122.665,36.667 125.998,47.333 133.998,47.333 L 150.665,47.333 C 150.665,47.333 162.664,46 169.331,35.333 z"
+   id="path11" />
+		<path
+   d="M 285.328,19.333 C 285.328,9.999 273.995,6 273.995,6 L 239.328,6 L 224.661,48 L 240.661,48 L 243.994,38.668 L 253.327,38.668 L 259.994,48.668 L 277.994,48.668 L 267.327,34.668 C 285.995,29.333 285.328,19.333 285.328,19.333 z M 263.327,27.333 L 247.994,27.333 L 251.994,16 L 266.661,16 C 270.661,16.667 271.328,21.333 271.328,21.333 C 267.327,28.001 263.327,27.333 263.327,27.333 z"
+   id="path13" />
+		<path
+   d="M 124.343,19.735 C 122.23,7.979 105.055,1.23 85.98,4.658 C 66.906,8.088 53.156,20.396 55.27,32.151 C 57.382,43.908 74.558,50.658 93.631,47.228 C 112.707,43.8 126.456,31.49 124.343,19.735 z M 93.33,37.244 C 82.635,39.67 72.759,36.318 71.272,29.762 C 69.786,23.205 77.251,15.923 87.946,13.498 C 98.642,11.073 108.517,14.424 110.004,20.98 C 111.49,27.537 104.025,34.819 93.33,37.244 z"
+   id="path15" />
+		<polygon
+   points="298.66,37.333 299.327,32 313.994,32 323.327,22 305.327,22 305.327,16.667 327.994,16.667 331.327,6.667 293.327,6.667 277.994,48.667 316.66,48.667 321.327,37.333 298.66,37.333 "
+   id="polygon17" />
+		<polygon
+   points="160.662,48 168.662,48.666 197.995,18.666 206.662,47.333 222.662,47.333 209.996,0 160.662,48 "
+   id="polygon19" />
+	</g>
+</g><polygon
+   id="polygon11"
+   points="114.334,47.835 79.001,47.835 108.334,40.503 122.334,40.503 114.334,47.835 "
+   transform="matrix(1.6267069,0,0,1.6267069,0.5100407,-14.189786)" /><polygon
+   id="polygon14"
+   points="170.666,48.001 206.662,48.001 197.996,18.666 170.666,48.001 "
+   style="fill:#ff0000"
+   transform="matrix(1.6267069,0,0,1.6267069,0.5100407,-14.189786)" />
+</svg>

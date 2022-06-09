@@ -1,0 +1,44 @@
+<div class='container'>
+  <%= form_with url: term_update_path, html: {:class => 'term-edit-form'}, method: 'patch' do |f| %>
+    <%= f.hidden_field :name, value: @term.name %>
+    <div id='term-name-block'>
+      <h3 class='term-name' id='term-name'><%= @term.name %></h3>
+    </div>
+    <div id='term-def-block'>
+      <p class='term-definition' id='term-definition'><%= @term.definition%></h3>
+      <p id='term-definition-field'>
+        <%= f.label :definition, 'Definition: ' %>
+        <%= f.text_area :definition, value: @term.definition, size: '80x5' %>
+        <%= f.submit 'Update', :class =>'edit-button', name: 'updateDef' %>
+      </p>
+      <%= button_tag 'Edit', type: 'button', name: 'edit',
+        :class => 'edit-button', :id => 'term-edit-button', :onclick => 'editDef(event)' %>
+      <%= button_tag 'Cancel', type: 'submit', name: 'cancel', value: true,
+        :id=> 'cancel-term-edit' %>
+    </div>
+  <% end %>
+</div>
+<div class='container visual-example'>
+  <h4>Examples</h4>
+  <div class='example-list'>
+    <%# Zipping the visual example with its respective caption %>
+    <%= form_with url: destroy_example_path, method: 'delete' do |f| %>
+      <%= f.collection_check_boxes(:example_id, @term.examples.all, :id, :image, include_hidden: false) do |b| %>
+        <%= b.label(class: 'check_box') { 
+          b.check_box(class: 'check_box') +
+          image_tag(url_for(b.object.image), style: 'height:25em;width:auto', :class =>'example-image')
+        } %>
+        <figcaption><%= b.object.description %></figcaption>
+      <% end %>
+      <%= f.submit 'Delete', name: 'delImage' %>
+    <% end %>
+  </div>
+  <%= form_with url: add_example_path, html: {:class => 'term-edit-form'}, method: 'post' do |f| %>
+    <%= f.hidden_field :name %>
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+    <%= f.label :description, 'Caption: ' %>
+    <%= f.text_field :description %>
+    <%= f.submit 'Add', name: 'addImage' %>
+  <% end %>
+<%= javascript_pack_tag 'edittoggle' %>

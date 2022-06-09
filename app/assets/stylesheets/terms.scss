@@ -1,0 +1,63 @@
+// Place all the styles related to the terms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+:root {
+  --show-asset: block;
+  --hide-asset: none;
+}
+
+.term-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#term-search{
+  width: calc(min(100vw, 1700px));
+}
+
+.term-grid {
+  display: grid;
+  font-size: 20px;
+  grid-row-gap: 1em;
+}
+
+.term-name {
+  //utilizing .term-grid's font-size as reference
+  font-size: 1.5em;
+}
+
+.term-definition {
+  //utilizing .term-grid's font-size as reference
+  font-size: 1.15em;
+}
+
+.term-tag {
+  //utilizing .term-grid's font-size as reference
+  font-size: 0.95em;
+}
+
+.visual-example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#term-name {
+  display: var(--show-asset);
+}
+
+#term-name-field {
+  display: var(--hide-asset);
+}
+
+#term-definition {
+  display: var(--show-asset);
+}
+
+#term-definition-field {
+  display: var(--hide-asset);
+}
+
+#cancel-term-edit {
+  display: var(--hide-asset);
+}

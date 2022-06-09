@@ -1,0 +1,19 @@
+<div class='container'>
+  <h1>Sign In</h1>
+  <%= form_with url: sign_in_path do |f| %>
+    <p>
+      <%= f.label :email, 'email:' %><br>
+      <%= f.text_field :email, id: 'email' %>
+    </p>
+    <p>
+      <%= f.label :password, 'password:' %><br>
+      <%= f.password_field :password, id: 'password' %>
+    </p>
+    <p>
+      <%= f.submit 'Log In' %>
+      <span>
+        <%= link_to 'New Account', signup_path, :class => 'btn' %>
+      </span>
+    </p>
+  <% end %>
+</div>

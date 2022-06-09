@@ -1,0 +1,19 @@
+<div class='container term-page single-term'>
+  <h1 class='term-name'><%= @term.name %></h1>
+  <p class='term-definition'><%= @term.definition %></p>
+</div>
+<div class='container visual-example'>
+  <h2>Examples</h2>
+  <div class='example-list'>
+    <%# Zipping the visual example with its respective caption %>
+    <% @term.examples.each do |example| %>
+      <%= image_tag url_for(example.image), style: 'height:25em;width:auto', :class =>'example-image'  %>
+      <figcaption><%= example.description %></figcaption>
+    <% end %>
+  </div>
+</div>  
+<div class='container'>
+  <% if Current.user %>
+    <%= link_to 'Edit', term_edit_path %>
+  <% end %>
+</div>

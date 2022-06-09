@@ -1,0 +1,10 @@
+<div class='container game-grid'>
+  <% @games.each do |game| %>
+      <div class='game-info'>
+        <%= link_to game_path(game.name) do %>
+          <%= image_tag image_url(game.cover), :size => '260x375'%>
+        <% end %>
+        <h3 class='game-title'><%= game.name %></h3>
+      </div>
+  <% end %>
+</div>
