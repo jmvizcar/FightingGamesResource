@@ -16,6 +16,7 @@ The database for the project is composed of 5 databases that interconnect with o
   * Developers
   * Series
   * Consoles
+
 With the remaining files being foreign keys linking the databases together.
 #### Database seed
 The seed file to create the database has also been provided so one may be able to freely create a copy of the initial database.
